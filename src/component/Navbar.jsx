@@ -10,7 +10,9 @@ const Navbar = () => {
 
   return (
     <div className="flex text-black justify-between items-center h-24 max-w-[1240] mx-auto px-4 md:px-20">
-      <h1 className="p-4 text-lg font-bold">Nikhil Srivastava</h1>
+      <h1 className="p-4 text-lg font-bold">
+      <Link to='/'>Nikhil Srivastava</Link>
+        </h1>
       <ul className="hidden md:flex">
         <li className="p-4 pl-10 hover:text-[#7ECFE0]">
         <Link to='/'>Home</Link>
@@ -40,11 +42,21 @@ const Navbar = () => {
       >
         <h1 className="w-full p-4 text-lg font-bold m-4">Nikhil Srivastava</h1>
         <ul className="p-4">
-          <li className="p-4 border-b border-gray-400">Home</li>
-          <li className="p-4 border-b border-gray-400">About</li>
-          <li className="p-4 border-b border-gray-400">Skills</li>
-          <li className="p-4 border-b border-gray-400">Project</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4 border-b border-gray-400">
+          <Link to='/'>Home</Link>
+            </li>
+          <li className="p-4 border-b border-gray-400">
+          <Link to='/about'>About</Link>
+            </li>
+          <li className="p-4 border-b border-gray-400">
+          <Link to='/about'>Skills</Link>
+            </li>
+          <li className="p-4 border-b border-gray-400">
+          <Link to='/project'>Project</Link>
+            </li>
+          <li className="p-4">
+          <Link to='/contact'>Contact</Link>
+            </li>
         </ul>
       </div>
     </div>

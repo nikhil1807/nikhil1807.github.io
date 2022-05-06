@@ -7,7 +7,7 @@ const Contact = () => {
       <div>
         <hr className="border-[#000000] md:w-3/5 m-auto" />
       </div>
-      <div className="flex justify-between p-2 md:mx-96 md:mb-4">
+      <div className="flex justify-between p-2 md:mx-96 md:mb-4 mx-4 my-2">
         <div className="flex">
           <div className="flex flex-col pr-4 md:pr-32">
             <p className="text-[#7ECFE0] font-semibold md:text-[22px] md:mb-2">
@@ -32,7 +32,7 @@ const Contact = () => {
             </button>
           </div>
         </div>
-        <div>
+        <div className="opacity-75 ">
           <img src={pic} alt="contact" />
         </div>
       </div>
